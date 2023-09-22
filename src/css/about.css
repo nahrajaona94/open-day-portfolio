@@ -1,0 +1,199 @@
+.about {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1194px) {
+
+    .about {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .info::before {
+        content: '';
+        position: absolute;
+        display: none !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        border-right: 3px solid #b4b8c0;
+    
+    }
+    .competence {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #b4b8c0;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .langue-loisir {
+        display: flex !important;
+        justify-content: space-around !important;
+        width: 100%;
+        margin-top: 50px;
+        color: #b4b8c0;
+    }
+}
+
+.about h2,
+.about h3 {
+    color: RGB(28 164 155);
+}
+
+.info {
+    position: relative;
+}
+
+.info::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-right: 3px solid #b4b8c0;
+
+}
+
+/* .info1 {
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+} */
+
+.info2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #b4b8c0;
+}
+
+.info3 {
+    position: relative;
+    display: flex;
+    color: #b4b8c0;
+}
+
+@media screen and (max-width: 770px) {
+    .info3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        color: #b4b8c0;
+    }
+    .linkedin{
+        margin-top: 15px;
+    }
+}
+
+.facebook,
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    text-decoration: none;
+    color: #b4b8c0;
+}
+
+.facebook:hover,
+.linkedin:hover {
+    background-color: rgba(44, 194, 240, 0.6);
+    cursor: pointer;
+}
+
+
+.orange {
+    color: #b4b8c0;
+    text-decoration: none;
+}
+
+.telma {
+    color: #b4b8c0;
+    text-decoration: none;
+}
+
+.mail a {
+    text-decoration: none;
+}
+
+.about-jsuis,
+.about-situation {
+    color: #b4b8c0;
+}
+
+.about-name {
+    color: #b4b8c0;
+}
+
+.about-fname {
+    color: #b4b8c0;
+}
+
+.competence {
+    display: flex;
+    flex-direction: column;
+    color: #b4b8c0;
+}
+
+.competence p {
+    margin-left: 30px;
+}
+
+.competence p img {
+    width: 32px;
+    height: 32px;
+}
+
+.world {
+    margin-left: 40px;
+}
+
+.margin {
+    margin-left: 10px;
+}
+
+.span {
+    margin-left: 8px;
+}
+
+.langue-loisir {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #b4b8c0;
+}
+.flag,
+.sport {
+    width: 32px;
+    height: 32px;
+}

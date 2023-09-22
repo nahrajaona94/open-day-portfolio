@@ -1,0 +1,49 @@
+.project {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #b4b8c0;
+}
+
+.etude,
+.prof,
+.academi {
+    margin-top: 100px;
+}
+
+.project h3 {
+    color: RGB(28 164 155);
+}
+
+@media screen and (max-width: 1128px) {
+    .project {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        color: #b4b8c0;
+    }
+    .etude,
+    .prof,
+    .academi {
+        width: 50%;
+        margin-top: 80px;
+    }
+    
+    .footer {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height:100%;
+        margin-top: 100px;
+        color: #b4b8c0;
+        z-index: 1;
+    }
+}
