@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/open-day-portfolio/static/css/main.1ee34ab8.css",
+    "main.js": "/open-day-portfolio/static/js/main.f30e0205.js",
+    "static/js/787.ecf4f424.chunk.js": "/open-day-portfolio/static/js/787.ecf4f424.chunk.js",
+    "static/media/download.jpg": "/open-day-portfolio/static/media/download.625dde41902cd4ce07ec.jpg",
+    "static/media/pdpPNG2.png": "/open-day-portfolio/static/media/pdpPNG2.0cda969172f6eb7a8d96.png",
+    "static/media/portfolio-png.png": "/open-day-portfolio/static/media/portfolio-png.573c27784af0ec508abd.png",
+    "static/media/babyfoot.png": "/open-day-portfolio/static/media/babyfoot.5803d61df6522744e7c1.png",
+    "static/media/basket2.png": "/open-day-portfolio/static/media/basket2.f4bd8729f3c646427451.png",
+    "static/media/foot.png": "/open-day-portfolio/static/media/foot.01833f82187c5870d55e.png",
+    "index.html": "/open-day-portfolio/index.html",
+    "main.1ee34ab8.css.map": "/open-day-portfolio/static/css/main.1ee34ab8.css.map",
+    "main.f30e0205.js.map": "/open-day-portfolio/static/js/main.f30e0205.js.map",
+    "787.ecf4f424.chunk.js.map": "/open-day-portfolio/static/js/787.ecf4f424.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ee34ab8.css",
+    "static/js/main.f30e0205.js"
+  ]
+}
